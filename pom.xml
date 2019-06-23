@@ -70,7 +70,7 @@
     <inherited>true</inherited>
     <configuration>
     <suiteXmlFiles>
-    <suiteXmlFile>TestSlaves/testng.xml</suiteXmlFile>
+    <suiteXmlFile>C:\Users\dell\it\eclipse\workspace\TestSlaves\testng.xml</suiteXmlFile>
     </suiteXmlFiles>
     </configuration>
     </plugin>
