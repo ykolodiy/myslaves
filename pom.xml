@@ -70,7 +70,7 @@
     <inherited>true</inherited>
     <configuration>
     <suiteXmlFiles>
-    <suiteXmlFile>testng.xml</suiteXmlFile>
+    <suiteXmlFile>TestSlaves/testng.xml</suiteXmlFile>
     </suiteXmlFiles>
     </configuration>
     </plugin>
