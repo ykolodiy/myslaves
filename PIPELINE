@@ -1,0 +1,37 @@
+pipeline {
+    agent none
+    stages {
+        stage("parallel execution") {
+            parallel {
+
+        stage('fuck1') {
+            agent {
+    node {
+        label 'ttt'
+    }
+}
+            
+            steps {
+               echo 'Hello, JDK'
+                 bat 'java -version'
+            }
+        }
+        
+              stage('fuck2') {
+            agent {
+    node {
+        label 'ttt'
+    }
+}
+            
+            steps {
+               echo 'dsfdsfsdf'
+                 bat 'mvn -version'
+            }
+        }
+            }
+        }
+    }
+
+
+}
